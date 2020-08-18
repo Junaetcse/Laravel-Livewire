@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="{{asset('/css/style.css?v=1.4')}}" rel="stylesheet">
-  
+  <livewire:styles />
  
   <title>Distressed Children & Infants International — Sponsor a child in Bangladesh</title>
 </head>
@@ -79,6 +79,7 @@
          $('#image_value').html(file_attr);
       });
     </script>
+    <livewire:scripts />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
 </body>
